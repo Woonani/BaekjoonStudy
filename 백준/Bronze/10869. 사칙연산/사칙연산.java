@@ -13,12 +13,19 @@ class Main{
        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
        int A = Integer.parseInt(st.nextToken());
        int B = Integer.parseInt(st.nextToken());
-       System.out.println(A+B);
-        System.out.println(A-B);
-        System.out.println(A*B);
-        System.out.println(A/B);
-        System.out.println(A%B);
-        
+       bw.write(String.valueOf(A+B));
+       bw.newLine();
+       bw.write(String.valueOf(A-B));
+        bw.newLine();
+       bw.write(String.valueOf(A*B));
+        bw.newLine();
+       bw.write(String.valueOf(A/B));
+         bw.newLine();
+       bw.write(String.valueOf(A%B));
+         bw.newLine();
+       bw.flush();
+       bw.close();
+
     }
     
     
