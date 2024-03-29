@@ -6,13 +6,10 @@ class Main {
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         long a = Integer.parseInt(st.nextToken());
         long b = Integer.parseInt(st.nextToken());
-        long answer;
         if(a>=b){
-            answer = a-b;
+            System.out.println(a-b);
         }else{
-            answer = b-a;
+            System.out.println(b-a);
         }
-        System.out.println(answer);
-
     }
 }
