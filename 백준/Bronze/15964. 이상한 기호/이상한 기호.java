@@ -7,8 +7,8 @@ class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
         
-        int a= Integer.parseInt(st.nextToken());
-        int b= Integer.parseInt(st.nextToken());
+        long a= Integer.parseInt(st.nextToken());
+        long b= Integer.parseInt(st.nextToken());
         
         Main main= new Main();
         
@@ -17,7 +17,7 @@ class Main {
         bw.close();
     }
     
-    public int calc(int a, int b) {
+    public long calc(long a, long b) {
     	return (a+b)*(a-b);
     }
 }
